@@ -1,0 +1,133 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --uno: #ff6464;
+    --dos: #2c4255;
+    --gris: #a0a0a0;
+
+    --fuente-uno: 3.8rem;
+}
+
+/* 1rem = 10px */
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    /* margin-top: 0rem;
+    margin-right: auto;
+    margin-bottom: 0rem;
+    margin-left: auto; */
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--dos);
+}
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 480px){
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion-principal a{
+    padding: 1rem;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--uno);
+    color: var(--blanco);
+}
+
+.bg-img{
+    background-image: url(../img/Mi\ Web\ como\ Frelancer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45rem;
+    padding: 2rem;
+    position: relative;
+}
+
+.titulo2{
+    font-size: 3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.contenido-bg-img{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .4);
+    top: 8rem; right: 40rem; bottom: 8rem; left: 40rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanco);
+}
+
+.contenido-bg-img p{
+    color: var(--blanco )
+}
+
+/* .imagenes-presentacion{
+    display: flex;
+}
+
+.imagenes-presentacion .a{
+    width: 40%;
+}
+
+.imagenes-presentacion .b{
+    width: 40%;
+} 
+
+.imge{
+    max-width: 100%;
+    max-height: 20%;
+} */
