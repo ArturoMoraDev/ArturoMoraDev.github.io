@@ -97,7 +97,7 @@ h1,h2,h3{
 
 
 .bg-img{
-    animation: matusalen 10s ease infinite;
+    animation: matusalen 12s ease-in-out infinite;
 /* 
     background-image: url(../img/../img/best-hp-laptops-for-programming-hero.webp);
     background-repeat: no-repeat;
