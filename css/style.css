@@ -99,7 +99,7 @@ h1,h2,h3{
 .bg-img{
     animation: matusalen 14s ease infinite;
 /* 
-    background-image: url(http://drive.google.com/uc?export=view&id=1yJx-tmyjlf-ZEB0Tv0FAsKczuoiBnVjK);
+    background-image: url(http://drive.google.com/uc?export=view&id=1ll9u8cspnT0NTbiXgHgsPwO1ubD_sNex);
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
@@ -112,13 +112,13 @@ h1,h2,h3{
 /**/
 @keyframes matusalen {
     0%,100%{
-        background-image: url(http://drive.google.com/uc?export=view&id=1FHNvDPbyifT-U3PkFADqSliIJ2nIjTAq);
+        background-image: url(http://drive.google.com/uc?export=view&id=1ll9u8cspnT0NTbiXgHgsPwO1ubD_sNex);
         background-size: cover;
         background-repeat: no-repeat;
         height: 50rem;
     }
     50%{
-        background-image: url(http://drive.google.com/uc?export=view&id=1yJx-tmyjlf-ZEB0Tv0FAsKczuoiBnVjK);
+        background-image: url(http://drive.google.com/uc?export=view&id=1aoX_OubFXbFDMozQt81OGO9q-H5DtUpE);
         background-size: cover;
         background-repeat: no-repeat;
         height: 50rem;
