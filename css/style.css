@@ -101,9 +101,6 @@ h1,h2,h3{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
-    -moz-animation-delay: 0s;
-    -moz-animation-duration: 1s;
-    -moz-animation-iteration-count: 1;
 /* 
     background-image: url(../img/best-hp-laptops-for-programming-hero.jpg);
     background-repeat: no-repeat;
