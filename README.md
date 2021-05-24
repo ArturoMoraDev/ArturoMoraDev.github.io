@@ -1,2 +1,2 @@
 # arturomora
-Mi primera pagina web propia
+Practica de creacion de pagina web, 01.
