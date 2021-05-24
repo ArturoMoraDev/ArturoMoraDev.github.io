@@ -97,7 +97,7 @@ h1,h2,h3{
 
 
 .bg-img{
-    animation: matusalen 14s ease infinite;
+    animation: matusalen 14s ease-in-out infinite;
 /* 
     background-image: url(../img/best-hp-laptops-for-programming-hero.jpg);
     background-repeat: no-repeat;
@@ -109,7 +109,23 @@ h1,h2,h3{
     margin-bottom: 2rem;
 }
 
-/**/
+@keyframes matusalen {
+    from {
+        background-image: url(../img/best-hp-laptops-for-programming-hero.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50rem;
+
+    }
+    to {
+        background-image: url(../img/chef-cooking-food-in-the-restaurant-kitchen.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50rem;
+    }
+  }
+
+/*
 @keyframes matusalen {
     0%,100%{
         background-image: url(../img/best-hp-laptops-for-programming-hero.jpg);
@@ -124,8 +140,7 @@ h1,h2,h3{
         height: 50rem;
     }
 }
-
-
+*/
 .contenido-bg-img{
     position: absolute;
     background-color: rgba(0, 0, 0, .5);
