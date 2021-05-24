@@ -97,18 +97,19 @@ h1,h2,h3{
 
 
 .bg-img{
-/* animation: matusalen 10s ease infinite;*/
+    animation: matusalen 10s ease infinite;
+/* 
     background-image: url(../img/../img/best-hp-laptops-for-programming-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 50rem;
     padding: 0rem;
     position: relative;
-
+*/
     margin-bottom: 2rem;
 }
 
-/*
+/* */
 @keyframes matusalen {
     0%,100%{
         background-image: url(../img/best-hp-laptops-for-programming-hero.jpg);
@@ -123,7 +124,7 @@ h1,h2,h3{
         height: 50rem;
     }
 }
-*/
+
 
 .contenido-bg-img{
     position: absolute;
