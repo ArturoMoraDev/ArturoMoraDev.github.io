@@ -250,6 +250,7 @@ h1,h2,h3{
     font-size: 3rem;
     background-color: var(--dos);
     color: var(--blanco);
+    text-decoration: dashed;
 }
 
 
