@@ -10,6 +10,7 @@
     --font-two: 'Staatliches', cursive, sans-serif;
 
 }
+<<<<<<< HEAD
 html {
     font-family: 'Open Sans', sans-serif;
 }
@@ -350,3 +351,146 @@ footer {
     font-family: var(--font-one);
     font-weight: 500;
 }
+=======
+a {
+    text-decoration: none;
+}
+body {
+    font-family: var(--font-one);
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: var(--color-three);
+}
+nav{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background: var(--color-one);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    
+    flex-wrap: wrap;
+  }
+  nav .logo{
+      color: #fff;
+      font-weight: 600;
+  }
+  nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  nav ul li{
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;; 
+  }
+  nav ul li a.active,
+  nav ul li a:hover{
+    color: #fff;
+    background:var(--color-2);
+  }
+  nav .menu-btn i{
+      max-width: 100%;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+  }
+  input[type="checkbox"]{
+    display: none;
+  }
+  @media (max-width: 768px){
+    nav{
+        max-width: 100%;
+      padding: 0;
+    }
+  }
+  @media (max-width: 480px){
+      nav {
+          max-width: 100%;
+      }
+  }
+  @media (max-width: 920px) {
+    nav .menu-btn i{
+      display: block;
+      padding-right: 15px;
+    }
+      #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav ul{
+      position: fixed;
+      top: 70px;
+      left: -110%;
+      background:rgba(0, 0, 0, 0.95);
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    @media (max-width: 480px){
+      #click:checked ~ ul{
+          left: -10%;
+        }
+    }
+    @media (max-width: 768px){
+      #click:checked ~ ul{
+          left: 0%;
+        }
+    }
+    @media (max-width: 1200px){
+        #click:checked ~ ul {
+          left: 0%;
+        }
+    }
+    .no-margin {
+        margin: 20px 0 0 0 !important;
+        padding-left: 0 !important;
+    }
+    
+    nav ul li{
+      width: 100%;
+      margin: 45px 0px;
+    }
+    nav ul li a{
+      width: 90%;
+      margin-left: -90%;
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      padding-right: 0px !important;
+    }
+    #click:checked ~ ul li a{
+      margin: auto;
+      padding: auto;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: cyan;
+    }
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: -1;
+    width: 100%;
+    padding: 0 30px;
+    color: #1b1b1b;
+  }
+>>>>>>> 802cc1a7bf670bb33d9b4cd5fd589b65809b3b7e
