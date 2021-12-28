@@ -1,71 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link rel="preload" href="css/style.css" as="style">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Contacto Arturo Mora</title>
-</head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/img/arturocrown.svg" type="image/x-icon">
+  <!-- <meta name="description" content="Hacer pedido en línea para llevar / entrega a domicilio. Aquí en ThaiLoko - Jamundi experimentarás una deliciosa cocina Thai. ¡Pruebe nuestros deliciosos platillos, cuidadosamente preparados con ingredientes frescos! En ThaiLoko, nuestras recetas para el éxito son simples: Calidad y sabor hacen que los clientes siempre regresen."> -->
+  <meta name="theme-color" content="#841d40">
+  <meta name=»apple-mobile-web-app-status-bar-style» content="#841d40">
+  <meta name=»apple-mobile-web-app-status-bar-style» content=»black-translucent»>
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Arturo Mora | Inicio</title>
 
+</head>
 <body>
     <header>
-        <h1 class="titulo">Arturo Mora <span>Freelancer</span></h1>
-    </header>
-    <div class="nav-bg">
-        <nav class="navegacion-principal contenedor">
-            <a href="index.html">Inicio</a>
-            <a href="Sobremi.html">Sobre Mi</a>
-            <a href="Clientes.html">Clientes</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </div>
-    <main>
-        <h2 class="">Contactame</h2>
 
-        <form class="formulario" action="">
-            <fieldset>
+        <!-- BARRA DE NAVEGACION -->
+    <nav>
 
-                <legend>Contactame llenando todos los campos</legend>
+        <div class="logo">
+           <img loading="lazy" id="logo" src="/img/arturocrown.svg" alt="Arturo Mora Corona">
+        </div>
 
-                <div class="contenedor-inputs">
-                    <div class="input">
-                        <label for="">Nombre y Apellido</label>
-                        <input class="text-form" type="text" placeholder="Tu Nombre y Apellido" />
-                    </div>
+        <input type="checkbox" id="click">
 
-                    <div class="input">
-                        <label for="">Telefono</label>
-                        <input class="text-form" type="tel" placeholder="Tu telefono" />
-                    </div>
+        <label for="click" class="menu-btn">
 
-                    <div class="input">
-                        <label for="">Correo Electronico</label>
-                        <input class="text-form" type="email" placeholder="Tu correo Electronico">
-                    </div>
+        <i class="fas fa-bars"></i>
 
-                    <div class="input">
-                        <label for="">Mensaje</label>
-                        <textarea class="text-form" name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-                </div> <!--CONTENEDOR DE LOS INPUTS-->
+        </label>
 
-                <div class="sent">
-                    <input class="contact-buttom" type="submit" value="Enviar">
-                </div>
+        <!-- ENLACES DE NAVEGACION -->
+        <ul class="no-margin">
 
-            </fieldset>
-        </form>
+           <li><a class="active" href="/">Inicio</a></li>
 
-    </main>
-    <p class="copyrights">Todos los derechos reservador. Arturo Mora Freelancer.</p>
+           <li><a href="/Clientes.html">Clientes</a></li>
+
+           <li><a href="/contacto.html">Contactame</a></li>
+
+           <li><a href="/Sobremi.html">Sobre Mi</a></li>
+
+        </ul>
+        <!-- ENLACES DE NAVEGACION END -->
+
+     </nav>
+        <!-- BARRA DE NAVEGACION END -->
+</header>
 </body>
-
-</html>
