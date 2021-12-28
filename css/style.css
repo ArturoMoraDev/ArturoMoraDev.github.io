@@ -70,7 +70,7 @@ nav ul{
 nav ul li{
   margin: 0 5px;
 }
-nav ul li a{
+nav ul li a {
     font-family: var(--font-one);
   color: var(--color-five);
   text-decoration: none;
