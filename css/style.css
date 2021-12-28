@@ -9,27 +9,20 @@
     --font-two: 'Roboto', sans-serif;
 
 }
-*, *:before, *:after {
-    box-sizing: border-box;
-}
 a {
     text-decoration: none;
 }
-html {
-    font-size: 62.5%;
-}
 body {
     font-family: var(--font-one);
-    font-size: 1.6rem;
+    font-size: 16px;
     line-height: 1.5;
-    color: var(--color-five);
-    background-color: var(--color-t);
+    background-color: var(--color-three);
 }
 nav{
     display: flex;
     height: 90px;
     width: 100%;
-    background: var(--color-1);;
+    background: var(--color-one);
     align-items: center;
     justify-content: space-between;
     padding: 0px;
