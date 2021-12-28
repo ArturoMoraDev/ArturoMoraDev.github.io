@@ -1,40 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/arturocrown.svg">
-    <link rel="stylesheet" href="/css/master.css">
+    <!-- <meta name="theme-color" content="#841d40">
+    <meta name=»apple-mobile-web-app-status-bar-style» content="#841d40">
+    <meta name=»apple-mobile-web-app-status-bar-style» content=»black-translucent»> -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="preload" href="css/style.css" as="stylesheet" >
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsibe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <title>Arturo Mora | Inicio</title>
 </head>
 <body>
 
-    <header class="hero">
+    <header>
 
-        <div class="navegarion__bar">
+        <!-- BARRA DE NAVEGACIÓN -->
+    <nav>
 
-            <a href="/" class="logo">
-                <img src="img/arturocrown.svg" alt="Arturo Crown">
-                    <p>Arturo</p>
-            </a>
-
-            <div class="navegarion_links">
-
-                <a href="/index.html">Inicio</a>
-                <a href="/contacto.html">Contacto</a>
-                <a href="/Sobremi.html">Sobre Mi</a>
-                <a href="/Clientes.html"> Clientes</a>
-
-            </div>
-
+        <div class="logo">
+           <img loading="lazy" id="logo" src="/img/arturocrown.svg" alt="Corona Arturo Mora">
+           <p>Arturo</p>
         </div>
+
+        <input type="checkbox" id="click">
+
+        <label for="click" class="menu-btn">
+
+        <i class="fas fa-bars"></i>
+
+        </label>
+
+        <!-- ENLACES DE NAVEGACIÓN -->
+        <ul class="no-margin">
+
+           <li><a class="active" href="/">Inicio</a></li>
+
+           <li><a href="/Proyectos.html">Proyectos</a></li>
+
+           <li><a href="/contacto.html">Contácteme</a></li>
+
+           <li><a href="/Sobremi.html">Sobre Mi</a></li>
+
+        </ul>
+        <!-- ENLACES DE NAVEGACIÓN END -->
+
+     </nav>
+        <!-- BARRA DE NAVEGACIÓN END -->
 
     </header>
 
+    <section class="myself">
+
+        <div class="myself-container">
+
+            <div class="myself-img">
+                <img loading="lazy" src="/img/IMG_20210712_132648_788.jpg" alt="Arturo Mora">
+                <a class="boton" href="/Sobremi.html">Más Sobre Mi</a>
+            </div>
+
+            <div class="myself-title">
+                <h1>Desarrollo Freelancer</h1>
+                <h2>Diseñador Gráfico</h2>
+                <div class="blue-line"></div>
+                <div class="location">
+                    <img src="/img/room_black_24dp.svg" alt="Icono Ubicación">
+                    <p class="direction">Jamundí - Valle del Cauca, Colombia.</p>
+                </div>
+                <a class="boton" href="/contacto.html">Contácteme</a>
+                
+            </div>
+
+    </section>
+
+    <section class="myservices">
+        <h3>Mis Servicios</h3>
+        <div class="blue-line center"></div>
+
+        <div class="services">
+            <div class="myservices-text">
+                <h4>Desarrollo Web</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae deleniti esse ratione, quam tempore illum distinctio atque dolor libero, placeat quisquam beatae rerum, a facere repellendus mollitia accusamus modi repudiandae?
+                Ex, quisquam eveniet pariatur obcaecati vel in fuga veniam voluptas minima corporis? Deleniti ducimus doloremque maiores iusto. Odio adipisci, esse, laudantium maiores nisi pariatur impedit consectetur possimus quis, ratione voluptates.</p>
+            </div>
+            <div class="img-services">
+                <img src="/img/icons/web_black_24dp.svg" alt="Icono Web">
+            </div>
+        </div>
+
+        <div class="grey-line"></div>
+
+        <div class="services-2">
+            <div class="img-services">
+                <img src="/img/icons/shopping_cart_black_24dp.svg" alt="Icono Tienda Online">
+            </div>
+            <div class="myservices-text">
+                <h4>Tienda Online</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae deleniti esse ratione, quam tempore illum distinctio atque dolor libero, placeat quisquam beatae rerum, a facere repellendus mollitia accusamus modi repudiandae?
+                Ex, quisquam eveniet pariatur obcaecati vel in fuga veniam voluptas minima corporis? Deleniti ducimus doloremque maiores iusto. Odio adipisci, esse, laudantium maiores nisi pariatur impedit consectetur possimus quis, ratione voluptates.</p>
+            </div>
+        </div>
+
+        <div class="grey-line"></div>
+
+        <div class="services">
+            <div class="myservices-text">
+                <h4>Aplicaciones Android</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae deleniti esse ratione, quam tempore illum distinctio atque dolor libero, placeat quisquam beatae rerum, a facere repellendus mollitia accusamus modi repudiandae?
+                Ex, quisquam eveniet pariatur obcaecati vel in fuga veniam voluptas minima corporis? Deleniti ducimus doloremque maiores iusto. Odio adipisci, esse, laudantium maiores nisi pariatur impedit consectetur possimus quis, ratione voluptates.</p>
+            </div>
+            <div class="img-services">
+                <img src="/img/icons/android_black_24dp.svg" alt="Icono Android">
+            </div>
+        </div>
+
+        <div class="grey-line"></div>
+
+    </section>
+
+<footer>
+    <p class="copyrights">&#9400 Todos los derechos reservados. Arturo Mora Freelancer.</p>
+</footer>
 </body>
 </html>
